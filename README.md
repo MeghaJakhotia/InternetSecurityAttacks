@@ -36,6 +36,17 @@ The labs were completed as a part of the Internet Security (CSE644) course at Sy
 3. **IP Attacks**
 >*Description:* In this lab, we understand the way fragmentation works and perform attacks such as DOS Attack, Ping-of-death attack, Teardrop attack, ICMP redirect attack by exploiting the vulnerabilities at Layer 3.
 
+4. **TCP Attacks**
+>*Description:* The vulnerabilities in the TCP/IP protocols represent a special genre of vulnerabilities in protocol designs and implementations; they provide an invaluable lesson as to why security should be designed in from the beginning, rather than being added as an afterthought. Moreover, studying these vulnerabilities helped me understand the challenges of network security and why many network security measures are needed.
+
+5. **Mitnick Attack**
+>*Description:* In this lab, we perform TCP Session Hijacking attack on a machine. As done by Mitnick, we exploit the relationship between a trusted server and a sensitive server and plant a backdoor on the sensitive machine to gain unrestricted access.
+
+6. **DNS Cache Poisoning Attack**
+>*Description:* Here, we perform local and remote DNS Cache Poisoning attack. DNS (Domain Name System) is the Internet’s phone book; it translates hostnames to IP addresses and vice versa. This translation is through DNS resolution, which happens behind the scene. DNS attacks manipulate this resolution process in various ways, with an intent to misdirect users to alternative destinations, which are often malicious
+
+7. **DNS Rebinding Attack**
+>*Description:* In this lab, we demonstrate the functioning of DNS Rebinding Attack - linking the original domain name to different IP address, in order to gain access to restricted home network. We also see how it can be used to exploit the IoT devices in the home network. 
 
 ## Key Learnings
 
