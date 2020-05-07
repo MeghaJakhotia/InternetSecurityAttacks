@@ -48,6 +48,12 @@ The labs were completed as a part of the Internet Security (CSE644) course at Sy
 7. **DNS Rebinding Attack**
 >*Description:* In this lab, we demonstrate the functioning of DNS Rebinding Attack - linking the original domain name to different IP address, in order to gain access to restricted home network. We also see how it can be used to exploit the IoT devices in the home network. 
 
+8. **Firewalls*
+>*Description:* In this lab, I work on 3 types of firewalls: packet filtering, stateful firewall and application firewall. Packet filters act by inspecting the packets; if a packet matches the packet filter's set of rules, the packet filter will either drop the packet or foward it, depending on what the rules say. Packet filters are usually stateless; they filter each packet based only on the information contained in that packet, without paying attention to whether a packet is part of an existing stream of traffic. Packet filters often use a combination of the packet's source and destination address, its protocol, and, for TCP and UDP traffic, port numbers. Stateful firewall consider if the packet is a part of an existing stream and filters accordingly. Application firewall works at the application layer. A widely used application firewall is web proxy, which is primarily used for egress filtering of web traffic.
+
+9. **Public Key Infrastructur**
+>*Description:* In this lab I gain a better understanding of how PKI works, how PKI is used to protect the Web, and how Man-in-the-middle attacks can be defeated by PKI. Also, I learn about root of trust and its importance. I create certificates using openssl and build a simple web server.
+
 ## Key Learnings
 
 - These attack labs give us the idea of fundamental principles of internet security, including network attacks and protocols, cryptography, VPN, and many more.
